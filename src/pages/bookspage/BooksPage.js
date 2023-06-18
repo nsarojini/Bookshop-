@@ -3,6 +3,7 @@ import './bookspage.styles.css';
 import Navbar from '../../components/layouts/navbar/Navbar';
 import SearchInputForm from '../../components/forms/searchInputForm/searchInputForm';
 import ProductListingAll from "../../components/layouts/product-listing-all/ProductListingAll";
+import Footer from '../../components/layouts/footer/Footer';
 
 const BooksPage = () => {
     return (
@@ -13,6 +14,7 @@ const BooksPage = () => {
       <SearchInputForm darkTheme={ false } />
       </div>
       <ProductListingAll />
+      <Footer />
        </section>
     )
 }
